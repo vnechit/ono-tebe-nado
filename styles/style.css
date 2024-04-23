@@ -23,7 +23,7 @@
     list-style-type: none;
 }
 
-.header__links-list-item_no-bullit .header__link {
+.header__link_active {
     text-decoration: none;
 }
 
@@ -153,13 +153,14 @@
 .lots__card-list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 25px;
     list-style-type: none;
 }
 
 .lots__card-list-item {
     width: 334px;
-    height: 563px;
+    min-height: 563px;
 }
 
 .card-link {
@@ -252,7 +253,7 @@
 
 .about__title {
     padding-top: 105px;
-    padding-bottom: 100px;
+    padding-bottom: 95px;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
